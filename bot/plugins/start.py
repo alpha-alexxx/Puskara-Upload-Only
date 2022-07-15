@@ -5,7 +5,6 @@ from ..translations import Messages as tr
 from ..config import Config
 from ..utubebot import UtubeBot
 
-
 @UtubeBot.on_message(
     Filters.private
     & Filters.incoming
@@ -19,8 +18,6 @@ async def _start(c: UtubeBot, m: Message):
         quote=True,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup([
-             [InlineKeyboardButton("Visit My Website", url="https://lethargicproj.blogspot.com/")],
-                  [InlineKeyboardButton("How to Use Me", callback_data="/help"),
-                      InlineKeyboardButton("Direct Sign In", callback_data="/login")]]
+             [InlineKeyboardButton("Visit My Website", url="https://lethargicproj.blogspot.com/")]
         ),
     )
