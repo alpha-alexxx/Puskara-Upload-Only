@@ -3,8 +3,7 @@ class Messages:
     START_MSG = (
         "**__Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtubeonce you authorise me.__** "
         "**__once you authorise me.You can know more from /help.\nThank you**__"
-        "\n\n**__You can know more from /help.__**"
-        "\n**__Or use /login to get started.__**"
+        "\n**__Or use /login to get direct Sign in Button.__**"
      
     )
 
@@ -37,7 +36,7 @@ class Messages:
     ]
 
     LOGIN_MSG = (
-          "**__Ohoo You Want To Login. Great 💚.__**"
+          "**__So, You Want To Login. Okay, Let's Rock.__**"
           "\n\n**__You need to give me the access to upload videos to your Youtube account.\n\nFor that open the given button below and allow access and copy the code. Come back here and send your code in this formate:\n `/authorise copied-code` (eg: 4/4waa...).__**"
     )
 
