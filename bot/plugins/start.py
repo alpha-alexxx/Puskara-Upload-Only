@@ -20,7 +20,7 @@ async def _start(c: UtubeBot, m: Message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup([
                  
-                  [InlineKeyboardButton("How to Use Me", callback_data="/help"),
-                      InlineKeyboardButton("Direct Sign In", callback_data="/login")]]
+                  [InlineKeyboardButton("How to Use Me", callback_data="help"),
+                      InlineKeyboardButton("Direct Sign In", callback_data="login")]]
         ),
     )
