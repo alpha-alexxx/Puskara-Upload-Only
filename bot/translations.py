@@ -5,7 +5,7 @@ class Messages:
         "**__once you authorise me.You can know more from /help.\nThank you**__"
         
         
-        "\n**__Or use /login to get direct Sign in Button.__**"
+        "\n\n**__Or use /login to get direct Sign in Button.__**"
      
     )
 
