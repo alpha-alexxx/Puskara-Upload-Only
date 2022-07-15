@@ -1,8 +1,8 @@
 class Messages:
 
     START_MSG = (
-        "**__Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtubeonce you authorise me.__** "
-        "**__once you authorise me.You can know more from /help.\nThank you**__"
+        "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtubeonce you authorise me."
+        "once you authorise me.You can know more from /help.\n\n**__This Project was Made @odysseusmax, and fixed me @iankitkr.__**\n\nThank you"
         
         
         "\n\n**__Or use /login to get direct Sign in Button.__**"
@@ -39,7 +39,7 @@ class Messages:
 
     LOGIN_MSG = (
           "**__So, You Want To Login. Okay, Let's Rock.__**"
-          "\n\n**__You need to give me the access to upload videos to your Youtube account.\n\nFor that open the given button below and allow access and copy the code. Come back here and send your code in this formate:\n `/authorise copied-code` (eg: 4/4waa...).__**"
+          "\n\nYou need to give me the access to upload videos to your Youtube account.\n\nFor that open the given button below and allow access and copy the code. Come back here and send your code in this formate:\n `/authorise copied-code` (eg: 4/4waa...)."
     )
 
     NOT_A_REPLY_MSG = "Please reply to some video file."
