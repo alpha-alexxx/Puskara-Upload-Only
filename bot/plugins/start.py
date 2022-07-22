@@ -20,7 +20,7 @@ async def _start(c: UtubeBot, m: Message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup([
                   [
-                      InlineKeyboardButton("Visit My Website", url="https://lethargicproj.blogspot.com/")
+                      InlineKeyboardButton("Visit My Website", url="https://lethargic.netlify.app")
                   ]]
         ),
     )
